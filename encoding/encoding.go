@@ -8,6 +8,7 @@ import (
 )
 
 // JSONData тип для перекодирования из JSON в YAML
+
 type JSONData struct {
 	DockerCompose *models.DockerCompose
 	FileInput     string
